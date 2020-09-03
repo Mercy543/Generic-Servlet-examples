@@ -14,6 +14,7 @@ public class GenericServletExample extends GenericServlet {
 		//media type
 		response.setContentType("text/html");
 		
+		
 		//generate response
 		PrintWriter outRes = response.getWriter();
 		
